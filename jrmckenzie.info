@@ -1,0 +1,40 @@
+name = jrmckenzie
+description = J R McKenzie Trust theme for Drupal 7
+screenshot = screenshot.jpg
+core = "7.x"
+engine = phptemplate
+
+regions[page_top] = Page top
+regions[header] = Header
+regions[highlight] = Highlight
+regions[help] = Help
+regions[content] = Content
+regions[sidebar_first] = First sidebar
+regions[sidebar_second] = Second sidebar
+regions[footer_top] = Footer top
+regions[footer_bottom] = Footer bottom
+regions[page_bottom] = Page bottom
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = search
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
+
+stylesheets[all][] = css/default.css
+stylesheets[all][] = css/layout.css
+stylesheets[all][] = css/style.css
+stylesheets[screen][] = css/jquery.lightbox-0.5.css
+stylesheets[print][] = css/print.css
+stylesheets-conditional[lt IE 7][all][] = css/ie6.css
+
+scripts[] = js/jquery.lightbox-0.5.pack.js
+scripts[] = js/jquery.jcarousel.min.js
+scripts[] = js/script.js
+
+settings[wireframe_mode] = 0
+settings[clear_registry] = 0

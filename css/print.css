@@ -1,0 +1,86 @@
+/* Use this stylesheet for print styles only. */
+body {
+	background: none;
+	font-family:"Times New Roman", Georgia, serif;
+}
+html.js body {
+	background: none!important;
+}
+#page {
+	width: 95%;
+}
+div#header {
+	background: none;
+	text-align: center;
+}
+#logo {
+	display: block;
+}
+#name-and-slogan {
+	display: none;
+}
+#header-region {
+	display: none;
+}
+#footer { 
+	display: none;
+}
+div.page {
+	background: none #fff;
+}
+#navigation {
+	display: none;
+}
+div#content {
+	margin: 0;
+}
+div#main {
+	background: none;
+}
+div#main-content, div#highlight {
+	color: #000;
+	font-size: 12pt;
+}
+div#content-header {
+	margin: 20px 0 10px 0;
+	padding: 0 0 10px 0;
+	border-bottom: 1px solid #ccc;
+}
+div#content-header h1 {
+	color: #000;
+}
+div.has-secondary div#content-header {
+    padding-top: 0px;
+}
+div#content-header {
+    padding-top: 0px;
+}
+div.group_pagelinks {
+	display: none;
+}
+div.sidebar-images {
+	float: right;
+	margin-left: 10px;
+}
+.node-type-page div.sidebar-image, .node-type-story div.sidebar-image {
+	border: 1px solid #ccc;
+	background: #eee;
+}
+div.content-with-sidebar {
+	margin-left: 0;
+}
+div.content-header-with-sidebar {
+	margin-left: 0;
+}
+div.sidebar-images div.sidebar-images-container {
+	top: 0;
+}
+.node-type-story div.sidebar-images div.sidebar-images-container {
+    top: 0;
+}
+.node-type-story div.field-name-field-teaser {
+	border-bottom: none;
+}
+ul.tabs {
+	display: none;
+}
