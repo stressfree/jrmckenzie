@@ -115,9 +115,3 @@
 	
 	</div> <!-- /node-inner -->
 </div> <!-- /node-->
-
-<!--
-<pre style="border: 1px solid #333; padding: 10px; font-size: 12px; background: #fff;">
-<?php print_r($node); ?>
-</pre>
--->
