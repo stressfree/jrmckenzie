@@ -2,3 +2,19 @@ J R McKenzie Trust Drupal 7 theme
 =================================
 
 This is the Drupal 7 theme for the J R McKenzie Trust website (http://www.jrmckenzie.org.nz).
+
+Recommended modules
+-------------------
+
+- backup_migrate
+- conditional_styles
+- ctools
+- field-group
+- google_analytics
+- link
+- menu_position
+- pathauto
+- token
+- views
+- wysiwyg
+- xmlsitemap
