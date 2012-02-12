@@ -133,8 +133,7 @@ div#navigation div#main-menu ul li a:hover {
 	color: #666;
 	background: url('../images/primary-tabs.jpg') -404px 0px no-repeat #f5f9e8;
 }
-div#navigation div#secondary-menu,
-div#highlight div#block-menu-menu-restricted-menu {
+div#navigation div#secondary-menu {
 	background: url('../images/secondary-menu-bg.jpg') 0px 0px no-repeat #f5f9e8;
 	width: 800px;
 	height: 36px;
@@ -153,8 +152,7 @@ div#highlight div#block-menu-menu-restricted-menu li a {
 	text-decoration: none;
 	padding: 3px 10px 3px 10px;
 }
-div#navigation div#secondary-menu li a.active-trail,
-div#highlight div#block-menu-menu-restricted-menu li a.active-trail {
+div#navigation div#secondary-menu li a.active-trail {
 	background: #9ac01b;
 	color: #fff;
 	-webkit-border-radius: 4px; 
@@ -165,16 +163,21 @@ div#navigation div#secondary-menu li a:hover,
 div#highlight div#block-menu-menu-restricted-menu li a:hover {
 	color: #666;
 }
-div#navigation div#secondary-menu li a.active-trail:hover
-div#highlight div#block-menu-menu-restricted-menu li a.active-trail:hover {
+div#navigation div#secondary-menu li a.active-trail:hover {
 	color: #fff;
 }
 
+
 div#highlight div#block-menu-menu-restricted-menu {
-    position: relative;
-    top: -30px;
+    width: 802px;
+	height: 36px;
+	padding: 0 0 0 8px;
+	position: relative;
+    top: -25px;
     left: -3px;
+	overflow: hidden;
     z-index: 100;
+    background: #f4f3f3;
 }
 div#highlight div#block-menu-menu-restricted-menu ul.menu {
     display: inline;
@@ -646,7 +649,7 @@ div.latest-news-container address {
 
 div.basic-content label, div.basic-content strong, div.basic-content b,
 div#highlight div.content strong, div#highlight div.content b,
-form.contact-form label, form#user-login label, 
+form.contact-form label, form#user-login label, form#user-login-form label,
 div.latest-news-container label, div.latest-news-container strong, div.latest-news-container b {
 	font-weight: bold;
 	color: #474747;
@@ -654,7 +657,7 @@ div.latest-news-container label, div.latest-news-container strong, div.latest-ne
 div.basic-content .description, div.basic-content em, div.basic-content i,
 div.latest-news-container em, div.latest-news-container i,
 div#highlight div.content em, div#highlight div.content i,
-form#user-login .description {
+form#user-login .description, form#user-login-form .description {
 	font-style: italic;
 }
 
@@ -667,11 +670,12 @@ div.basic-content td, div#highlight div.content td {
 }
 
 div.basic-content input, form.contact-form input, 
-form#search-form input, form#user-login input {
+form#search-form input, form#user-login input, form#user-login-form input {
 	font-size: 1em;
 }
 div.basic-content input.form-text, form.contact-form input.form-text,
-form#user-login input.form-text, form#search-form input.form-text {
+form#user-login input.form-text, form#user-login-form input.form-text, 
+form#search-form input.form-text {
 	padding: 2px 0 2px 5px;
 	border: 1px solid #999;
 	-webkit-border-radius: 8px; 
@@ -704,7 +708,8 @@ div.basic-content textarea, form.contact-form textarea {
 }
 
 div.basic-content input.form-submit, form.contact-form input.form-submit,
-form#search-form input.form-submit, form#user-login input.form-submit {
+form#search-form input.form-submit, form#user-login input.form-submit,
+form#user-login-form input.form-submit {
 	padding: 2px 15px 2px 15px;
 	border: 1px solid #999;
 	-webkit-border-radius: 8px; 
@@ -714,6 +719,24 @@ form#search-form input.form-submit, form#user-login input.form-submit {
 	color: #333;
 }
 
+div#block-user-login {
+    margin-top: 1.5em;
+}
+div#block-user-login h2 {
+    display: none;
+}
+div#block-user-login div.item-list {
+    font-size: 0.9em;
+    float: left;
+    margin: 0 150px 0 0;
+}
+div#block-user-login div.item-list a {
+    color: #7DAB1B;
+    text-decoration: underline;
+}
+div#block-user-login div.item-list a:hover {
+    color: #666;
+}
 
 /* Project story styles */
 .project-item {
