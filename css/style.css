@@ -133,7 +133,8 @@ div#navigation div#main-menu ul li a:hover {
 	color: #666;
 	background: url('../images/primary-tabs.jpg') -404px 0px no-repeat #f5f9e8;
 }
-div#navigation div#secondary-menu {
+div#navigation div#secondary-menu,
+div#highlight div#block-menu-menu-restricted-menu {
 	background: url('../images/secondary-menu-bg.jpg') 0px 0px no-repeat #f5f9e8;
 	width: 800px;
 	height: 36px;
@@ -145,24 +146,46 @@ div#navigation div#secondary-menu {
 div#navigation div#secondary-menu li {
 	margin: 7px 0 0 5px;
 }
-div#navigation div#secondary-menu li a {
+div#navigation div#secondary-menu li a,
+div#highlight div#block-menu-menu-restricted-menu li a {
 	font-size: 14px!important;
 	color: #7dab1b;
 	text-decoration: none;
 	padding: 3px 10px 3px 10px;
 }
-div#navigation div#secondary-menu li a.active-trail {
+div#navigation div#secondary-menu li a.active-trail,
+div#highlight div#block-menu-menu-restricted-menu li a.active-trail {
 	background: #9ac01b;
 	color: #fff;
 	-webkit-border-radius: 4px; 
 	-moz-border-radius: 4px;
 	border-radius: 4px;
 }
-div#navigation div#secondary-menu li a:hover {
+div#navigation div#secondary-menu li a:hover,
+div#highlight div#block-menu-menu-restricted-menu li a:hover {
 	color: #666;
 }
-div#navigation div#secondary-menu li a.active-trail:hover {
+div#navigation div#secondary-menu li a.active-trail:hover
+div#highlight div#block-menu-menu-restricted-menu li a.active-trail:hover {
 	color: #fff;
+}
+
+div#highlight div#block-menu-menu-restricted-menu {
+    position: relative;
+    top: -30px;
+    left: -3px;
+    z-index: 100;
+}
+div#highlight div#block-menu-menu-restricted-menu ul.menu {
+    display: inline;
+    padding-left: 0;
+}
+div#highlight div#block-menu-menu-restricted-menu ul.menu li {
+    float: left;
+    display: inline;
+    list-style: none;
+    padding: 0;
+	margin: 6px 0 0 5px;
 }
 
 div#main {
