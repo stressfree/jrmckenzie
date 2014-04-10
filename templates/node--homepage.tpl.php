@@ -63,7 +63,7 @@
 				</div>
 				<div class="section-info">			
 					<div class="wrapper">
-					<h2 class="homepage-subtitle">What you can do</h2>
+					<h2 class="homepage-subtitle">What we’re learning</h2>
 					<div><?php print $field_actions[0]['safe_value'] ?></div>
 					</div>
 				</div>
