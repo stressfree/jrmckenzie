@@ -9,6 +9,7 @@
 /* Web page appearance */
 div.page {
 	background: url('../images/page-content.jpg') top left no-repeat #fff;
+	position: relative;
 }
 div#site-name {
 	text-align: center;

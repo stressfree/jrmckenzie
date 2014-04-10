@@ -127,11 +127,6 @@ div#navigation {
 	top: 195px;
 	width: 900px;
 }
-/*
- * body.toolbar div#navigation {
- * 	top: 260px;
- * }
- */
 
 /* Homepage styles */
 .node-type-homepage div#content-header {
@@ -187,5 +182,5 @@ div#navigation {
 
 /* Fix for admin toolbar */
 body.toolbar-drawer {
-	padding-top: 4em!important;
+	padding-top: 2em!important;
 }
