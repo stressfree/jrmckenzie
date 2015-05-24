@@ -11,17 +11,17 @@
     margin-right: auto;
 }
 #header {
-	margin: 0 0 0 30px;
+	margin: 0 0 0 10px;
 	padding: 10px 0 0 0;
-	height: 115px;
+	height: 155px;
 }
 div#site-name {
-	width: 277px;
-	height: 104px;
+	width: 312px;
+	height: 155px;
 	float: left;
 }
 div#site-slogan {
-	margin: 0 0 0 285px;
+	margin: 0 0 0 320px;
 	padding: 59px 0 0 0;
 }
 div#header-region {
@@ -31,7 +31,7 @@ div#header-region {
 }
 div#header-region div.region-header {
 	position: relative;
-	top: 35px;
+	top: 75px;
 	width: 800px;
 }
 
@@ -96,12 +96,16 @@ div.group-pagelinks {
 }
 
 div#footer {
-	height: 125px;
+	height: 200px;
 	margin: 0 0 20px 0;
 }
 div#footer div#block-block-1 {
 	float: right;
 	margin: 15px 20px 0 0;
+}
+div#footer div#block-block-3 {
+	float: right;
+	margin: 5px 20px 0 0;
 }
 div#footer div#block-menu-menu-loginmenu {
 	float: right;
@@ -124,7 +128,7 @@ div#footer div.content {
 
 div#navigation {
 	position: absolute;
-	top: 195px;
+	top: 235px;
 	width: 900px;
 }
 

@@ -14,6 +14,10 @@ div.page {
 div#site-name {
 	text-align: center;
 }
+
+/** 
+ * Standard logo
+ *
 div#site-name a {
 	display: block;
 	width: 277px;
@@ -37,6 +41,35 @@ div#site-name div.imagereplacement a {
 	height: 0;
 	overflow: hidden;
 }
+ *
+ */
+ 
+/** 75th anniversary logo */
+div#site-name a {
+	display: block;
+	width: 312px;
+	height: 40px;
+	padding-top: 160px;
+	font-size: 20px;
+	letter-spacing: 1px;
+	color: #000;
+	text-decoration: none;
+	text-transform: uppercase;
+	background: url('../images/logo-75th-anniversary.jpg') -314px 0px no-repeat;
+}
+div#site-name div.imagereplacement {
+	position: absolute;
+	width: 312px;
+	height: 200px;
+	height: 0px;
+}
+div#site-name div.imagereplacement a {
+	padding: 200px 0 0 0;
+	height: 0;
+	overflow: hidden;
+}
+/** 75th anniversary logo end */
+ 
 div#site-slogan {
 	font-family: 'PT Sans', arial, serif;
 	color: #92b919;
@@ -49,7 +82,7 @@ div#block-menu-menu-topmenu {
 	margin: 6px 20px 0 0;
 }
 div#header {
-	background: url('../images/sidebar-content.gif') right 150px repeat-y;
+	background: url('../images/sidebar-content.gif') right 90px repeat-y;
 }
 div#header-region ul.menu li {
 	float: left;
@@ -193,7 +226,7 @@ div#highlight div#block-menu-menu-restricted-menu ul.menu li {
 }
 
 div#main {
-	background: url('../images/sidebar-content.gif') right 25px repeat-y;
+	background: url('../images/sidebar-content.gif') right -75px repeat-y;
 }
 div#main-content, div#highlight {
 	color: #545454;
@@ -241,7 +274,7 @@ div#block-menu-menu-loginmenu ul.menu li a:hover {
 
 div#footer {
 	clear: both;
-	background: url('../images/footer.jpg') 30px 43px no-repeat #fff;
+	background: url('../images/footer-75th-anniversary.jpg') 15px 30px no-repeat #fff;
 	border-top: 7px solid #E1ECBB;
 }
 
@@ -259,7 +292,7 @@ li.facebook-link a {
 	padding: 27px 0px 0px 0px;
 	height: 0px;
 	overflow: hidden;
-	background: url('../images/social-media.jpg') top left no-repeat;
+	background: url('../images/social-media.jpg') 0px 0px no-repeat;
 }
 li.youtube-link {
 	float: left;
@@ -273,6 +306,21 @@ li.youtube-link a {
 	height: 0px;
 	overflow: hidden;
 	background: url('../images/social-media.jpg') -40px 0px no-repeat;
+}
+
+li.livingwage-link {
+    float: left;
+	width: 85px;
+	height: 85px;
+}
+
+li.livingwage-link a {
+	display: block;
+	width: 85px;
+	padding: 85px 0px 0px 0px;
+	height: 0px;
+	overflow: hidden;
+	background: url('../images/living-wage.gif') 0px 0px no-repeat;
 }
 
 /* Standard page styles */
@@ -386,16 +434,16 @@ div#highlight img {
 	color: #fff;
 }
 .node-type-homepage div#site-name div.imagereplacement a {
-	background: url('../images/logo.jpg') 0px 0px no-repeat;
+	background: url('../images/logo-75th-anniversary.jpg') 0px 0px no-repeat;
 }
 .node-type-homepage div#site-slogan {
 	color: #fdfefb;
 }
 .node-type-homepage div#header {
-	background: url('../images/sidebar-homepage.gif') right 150px repeat-y;
+	background: url('../images/sidebar-homepage.gif') right 90px repeat-y;
 }
 .node-type-homepage div#main {
-	background: url('../images/sidebar-homepage.gif') right 25px repeat-y;
+	background: url('../images/sidebar-homepage.gif') right -75px repeat-y;
 }
 .node-type-homepage div#header-region ul.menu li {
 	border-right-color: #fff;
